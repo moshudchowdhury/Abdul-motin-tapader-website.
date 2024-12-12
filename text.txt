@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Motin Tapader Convention Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h2 {
+            font-size: 50px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <h1>Abdul Motin Tapader Convention Center</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Abdul Motin Tapader Convention Center</h2>
+        <p>Your premier destination for events and gatherings.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>আমরা, আব্দুল আহাদ বাদল, খালেদ আহমদ তাপাদার এবং ফজল আহমেদ, তিন ভাই মিলে “আব্দুল মতিন তাপাদার কনভেনশন সেন্টার” প্রতিষ্ঠা করেছি। আমাদের বাবা আর বেঁচে নেই, তাই আমাদের বাবার স্মৃতিকে সম্মান জানিয়ে এবং তাঁর নামে এই আধুনিক ও উন্নত সেন্টারটি প্রতিষ্ঠা করা হয়েছে। আমাদের লক্ষ্য, সকল শ্রেণীর মানুষের জন্য একটি সুন্দর, শান্তিপূর্ণ এবং সুবিধাজনক পরিবেশে যেকোনো ধরনের অনুষ্ঠান আয়োজনের সুযোগ প্রদান করা।</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Wedding Planning</li>
+            <li>Event Hosting</li>
+            <li>Corporate Conferences</li>
+            <li>Catering and Audio/Visual Setup</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For booking and inquiries, please contact us:</p>
+        <p>Phone: +8801720400990</p>
+        <p>Email: <a href="mailto:abdulmotintapaderconventioncen@gmail.com">abdulmotintapaderconventioncen@gmail.com</a></p>
+        <p>Address: Abdul Motin Tapader Convention Center, Kamalganj, Zakiganj, Sylhet</p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Abdul Motin Tapader Convention Center. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
